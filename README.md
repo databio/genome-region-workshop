@@ -1,11 +1,11 @@
 # Tools for analysis of aggregated genomic ranges
 
-Nathan Sheffield, University of Virginia
-databio.org; nathan@code.databio.org
+By: Nathan Sheffield, University of Virginia
+Contact: databio.org; nathan@code.databio.org
 
 # Workshop Description
 
-This workshop will introduce you to a series of Bioconductor packages for analyzing epigenomic data types using collections of genomic regions, or region sets. The workshop focuses on LOLA, MIRA, and COCOA, three packages produced by the Sheffield lab that provide different ways of using region set data.
+This workshop will introduce Bioconductor packages for analyzing epigenomic data types using collections of genomic regions, or region sets. The workshop focuses on LOLA, MIRA, and COCOA, three packages produced by the Sheffield lab that provide different ways of using region set data.
 
 We will start with an introductory presentation introducing general concepts of region analysis. This presentation will cover the biological motivation and the computational approaches employed by these packages. We will then dive into focused explanations and vignettes in an instructor-led lab session, where users will be able to follow along with vignettes to run each package on a real dataset.
 
@@ -33,15 +33,15 @@ Students will be enabled (but not required) to follow along a series of instruct
 
 ## Time outline
 
-| Activity                     | Time |
-|------------------------------|------|
-| Intro to region concepts     | 20m  |
-| Introduction to LOLA         | 10m  |
-| LOLA vignettee               | 20m  |
-| Introduction to MIRA         | 10m  |
-| MIRA vignettee               | 20m  |
-| Introduction to COCOA        | 10m  |
-| COCOA vignettee              | 20m  |
+| Activity                                                      | Time |
+|---------------------------------------------------------------|------|
+| Intro to region concepts                                      | 20m  |
+| [Introduction to LOLA](http://databio.org/slides/lola.html)   | 10m  |
+| LOLA vignettee                                                | 20m  |
+| [Introduction to MIRA](http://databio.org/slides/mira.html)   | 10m  |
+| MIRA vignettee                                                | 20m  |
+| Introduction to COCOA                                         | 10m  |
+| COCOA vignettee                                               | 20m  |
 
 
 # Workshop goals and objectives
