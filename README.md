@@ -15,7 +15,7 @@ We will start an introduction to concepts in region-based analysis, such as regi
 
 ### MIRA
 
-*Methylation-Based Inference of Regulatory Activity*. MIRA measures the degree of "dip" in methylation level surrounding a regulatory site of interest, such as a transcription factor binding site, for instances of that type of site across the genome which can then be used to infer regulatory activity.
+*Methylation-Based Inference of Regulatory Activity*. DNA methylation contains information about the regulatory state of the cell. MIRA aggregates genome-scale DNA methylation data into a DNA methylation profile for a given region set with shared biological annotation. Using this profile, MIRA infers and scores the collective regulatory activity for the region set. MIRA facilitates regulatory analysis in situations where classical regulatory assays would be difficult and allows public sources of region sets to be leveraged for novel insight into the regulatory state of DNA methylation datasets.
 
 ### COCOA
 
@@ -46,13 +46,13 @@ Students will be enabled (but not required) to follow along a series of instruct
 
 | Activity                                                      | Time |
 |---------------------------------------------------------------|------|
-| Intro to region concepts                                      | 20m  |
-| [Introduction to LOLA](http://databio.org/slides/lola.html)   | 10m  |
+| Intro to region concepts                                      													| 20m  |
+| [Introduction to LOLA](http://databio.org/slides/lola.html)   													| 10m  |
 | [LOLA vignettee](https://bioconductor.org/packages/release/bioc/vignettes/LOLA/inst/doc/gettingStarted.html)		| 20m  |
-| [Introduction to MIRA](http://databio.org/slides/mira.html)   | 10m  |
+| [Introduction to MIRA](http://databio.org/slides/mira.html)   													| 10m  |
 | [MIRA vignettee](https://bioconductor.org/packages/release/bioc/vignettes/MIRA/inst/doc/GettingStarted.html)	 	| 20m  |
 | Introduction to COCOA                                         													| 10m  |
-| [COCOA vignettee] (https://bioconductor.org/packages/release/bioc/vignettes/COCOA/inst/doc/IntroToCOCOA.html) 	| 20m  |
+| [COCOA vignettee](https://bioconductor.org/packages/release/bioc/vignettes/COCOA/inst/doc/IntroToCOCOA.html) 		| 20m  |
 
 
 # Workshop goals and objectives
