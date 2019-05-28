@@ -1,0 +1,6 @@
+.git
+.git/*
+.gitignore
+R/*.old
+.travis.yml
+_pkgdown.yaml

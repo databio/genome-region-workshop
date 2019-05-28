@@ -16,10 +16,14 @@ RoxygenNote: 6.1.1
 Depends:
 	LOLA,
 	COCOA,
-	MIRA
+	MIRA,
+Suggests:
+	data.table,
+	tidyr,
+	GenomicRanges,
+	knitr,
+	rmarkdown,
+	ggplot2
 VignetteBuilder:
     knitr,
     rmarkdown
-Suggests: knitr, rmarkdown
-
-

@@ -8,6 +8,7 @@ vignette: >
   %\VignetteIndexEntry{Genomic Regions Workshop}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
+  %\VignetteDepends{data.table, tidyr, GenomicRanges}
 ---
 
 ```{r, echo=FALSE}
