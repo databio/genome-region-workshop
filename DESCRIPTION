@@ -1,0 +1,25 @@
+Package: genome
+Type: Package
+Title: A Workshop For Genome Region Packages
+Version: 0.1.0
+Authors@R: c(
+	person(given=c("Nathan", "C."), "Sheffield",
+	email = "nathan@code.databio.org", role=c("aut", "cre")))
+Description: Introduces Bioconductor packages for analyzing epigenomic data
+	types using collections of genomic regions, or region sets. The workshop
+	focuses on three packages produced by the Sheffield lab that use region sets
+	to perform different kinds of epigenome analysis.
+Encoding: UTF-8
+LazyData: true
+License: BSD_2_clause + file LICENSE
+RoxygenNote: 6.1.1
+Depends:
+	LOLA,
+	COCOA,
+	MIRA
+VignetteBuilder:
+    knitr,
+    rmarkdown
+Suggests: knitr, rmarkdown
+
+
