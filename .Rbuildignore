@@ -4,3 +4,5 @@
 R/*.old
 .travis.yml
 _pkgdown.yaml
+update_vignette.sh
+vignette_header.txt
