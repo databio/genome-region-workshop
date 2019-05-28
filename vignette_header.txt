@@ -10,3 +10,6 @@ vignette: >
   %\VignetteEncoding{UTF-8}
   %\VignetteDepends{data.table, tidyr, GenomicRanges, ggplot2}
 ---
+
+# Epigenome analysis of aggregated genomic ranges
+

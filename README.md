@@ -1,9 +1,9 @@
-# Tools for epigenome analysis of aggregated genomic ranges
+# Epigenome analysis of aggregated genomic ranges
 
 By: Nathan Sheffield, University of Virginia  
-Contact: databio.org; nathan@code.databio.org
+Contact: [databio.org](http://databio.org); nathan@code.databio.org
 
-# Workshop Description
+## Workshop Description
 
 This workshop will introduce Bioconductor packages for analyzing epigenomic data types using collections of genomic regions, or region sets. The workshop focuses on [LOLA](http://bioconductor.org/packages/LOLA/), [MIRA](http://bioconductor.org/packages/MIRA/), and [COCOA](http://bioconductor.org/packages/COCOA/), three packages produced by the Sheffield lab that use region sets to perform different kinds of epigenome analysis.
 
@@ -55,14 +55,14 @@ Students will be enabled (but not required) to follow along a series of instruct
 | [COCOA vignettee](https://bioconductor.org/packages/release/bioc/vignettes/COCOA/inst/doc/IntroToCOCOA.html) 		| 20m  |
 
 
-# Workshop goals and objectives
+## Workshop goals and objectives
 
-## Learning goals
+### Learning goals
 
 * understand how region pooling methods bring power to genome analysis
 * learn to use specific R packages to employ region pooling methods
 
-## Learning objectives
+### Learning objectives
 
 * identify the most enriched public region sets for a given query user set
 * identify different aggregate DNA methylation patterns at different region sets
