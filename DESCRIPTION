@@ -1,4 +1,4 @@
-Package: genome
+Package: genomeRegionPooling
 Type: Package
 Title: A Workshop For Genome Region Packages
 Version: 0.1.0
@@ -23,7 +23,8 @@ Suggests:
 	GenomicRanges,
 	knitr,
 	rmarkdown,
-	ggplot2
+	ggplot2,
+	simpleCache
 VignetteBuilder:
     knitr,
     rmarkdown

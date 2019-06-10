@@ -1,15 +1,12 @@
 ---
-title: "Genomic Regions Workshop"
+title: "Genome Region Pooling Workshop"
 author: "Nathan Sheffield"
 date: "`r Sys.Date()`"
 output: 
   BiocStyle::html_document
 vignette: >
-  %\VignetteIndexEntry{Genomic Regions Workshop}
+  %\VignetteIndexEntry{Genome Region Pooling Workshop}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
   %\VignetteDepends{data.table, tidyr, GenomicRanges, ggplot2}
 ---
-
-# Epigenome analysis of aggregated genomic ranges
-

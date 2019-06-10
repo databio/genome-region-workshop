@@ -1,25 +1,17 @@
-# Epigenome analysis of aggregated genomic ranges
+# Genome region pooling
 
 By: Nathan Sheffield, University of Virginia  
 Contact: [databio.org](http://databio.org); nathan@code.databio.org
 
-## Workshop Description
+## Workshop description and packages used
 
-This workshop will introduce Bioconductor packages for analyzing epigenomic data types using collections of genomic regions, or region sets. The workshop focuses on [LOLA](http://bioconductor.org/packages/LOLA/), [MIRA](http://bioconductor.org/packages/MIRA/), and [COCOA](http://bioconductor.org/packages/COCOA/), three packages produced by the Sheffield lab that use region sets to perform different kinds of epigenome analysis.
+This workshop will introduce Bioconductor packages for analyzing epigenomic data types using collections of genomic regions, or region sets. A *region set* is a collection of genomic regions genome that share some biological annotation. Region sets are represented in Bioconductor by GRanges objects, which form the basis of many downstream analysis packages. The workshop focuses on three packages produced by the Sheffield lab that use region sets to perform different kinds of epigenome analysis:
 
-We will start an introduction to concepts in region-based analysis, such as region pooling, signal metaplots, and significance testing. We will then dive into focused explanations and vignettes in an instructor-led lab session, where users will be able to follow along with vignettes to run each package on real datasets. The three packages we will cover are:
+* [LOLA](http://bioconductor.org/packages/LOLA/) -- *Locus Overlap Analysis*. Provides functions for testing overlap of sets of genomic regions with public and custom region set (genomic ranges) databases. This makes it possible to do automated enrichment analysis for genomic region sets, thus facilitating interpretation of functional genomics and epigenomics data.
 
-### LOLA
+* [MIRA](http://bioconductor.org/packages/MIRA/) -- *Methylation-Based Inference of Regulatory Activity*. MIRA aggregates genome-scale DNA methylation data into a DNA methylation profile for a given region set. Using this profile, MIRA infers and scores the collective regulatory activity for the region set. MIRA facilitates regulatory analysis in situations where classical regulatory assays would be difficult and allows public sources of region sets to be leveraged for novel insight into the regulatory state of DNA methylation datasets.
 
-*Locus Overlap Analysis*. Provides functions for testing overlap of sets of genomic regions with public and custom region set (genomic ranges) databases. This makes it possible to do automated enrichment analysis for genomic region sets, thus facilitating interpretation of functional genomics and epigenomics data.
-
-### MIRA
-
-*Methylation-Based Inference of Regulatory Activity*. DNA methylation contains information about the regulatory state of the cell. MIRA aggregates genome-scale DNA methylation data into a DNA methylation profile for a given region set with shared biological annotation. Using this profile, MIRA infers and scores the collective regulatory activity for the region set. MIRA facilitates regulatory analysis in situations where classical regulatory assays would be difficult and allows public sources of region sets to be leveraged for novel insight into the regulatory state of DNA methylation datasets.
-
-### COCOA
-
-*Coordinate Covariation Analysis*. COCOA is a method for understanding variation among samples and can be used with data that includes genomic coordinates such as DNA methylation. On a high level, COCOA uses a database of "region sets" and principal component analysis (PCA) of your data to identify sources of variation among samples. A region set is a set of genomic regions that share a biological annotation, for instance, transcription factor binding regions, histone modification regions, or open chromatin regions. COCOA works in both supervised (known groups of samples) and unsupervised (no groups) situations and can be used as a complement to "differential" methods that find discrete differences between groups. COCOA can identify biologically meaningful sources of variation between samples and increase understanding of variation in your data.
+* [COCOA](http://bioconductor.org/packages/COCOA/) -- *Coordinate Covariation Analysis*. COCOA is a method for understanding variation among samples. It can be used with any data that includes genomic coordinates, such as DNA methylation. COCOA uses principal component analysis (PCA) combined with a database of region sets to identify sources of variation among samples. COCOA works in both supervised (known groups of samples) and unsupervised (no groups) situations and can be used as a complement to differential methylation methods that find discrete differences between groups.
 
 ## Prerequisites
 
@@ -27,22 +19,12 @@ We will start an introduction to concepts in region-based analysis, such as regi
 * Familiarity with the GenomicRanges class
 * Familiarity with BED files and biological concepts in epigenomics
 
-## Relevant background reading:
+## Relevant background reading
 
 - [LOLA: enrichment analysis for genomic region sets and regulatory elements in R and Bioconductor](https://academic.oup.com/bioinformatics/article/32/4/587/1743969). Bioinformatics (2016)
 - [MIRA: an R package for DNA methylation-based inference of regulatory activity](https://academic.oup.com/bioinformatics/article/34/15/2649/4916061). Bioinformatics (2018)
 
-## Workshop Participation
-
-Students will be enabled (but not required) to follow along a series of instructor-led R vignettes that walk through each package.
-
-## _R_ / _Bioconductor_ packages used
-
-* [LOLA](http://bioconductor.org/packages/LOLA/)
-* [MIRA](http://bioconductor.org/packages/MIRA/)
-* [COCOA](http://bioconductor.org/packages/COCOA/)
-
-## Time outline
+## Workshop outline 
 
 | Activity                                                      | Time |
 |---------------------------------------------------------------|------|
