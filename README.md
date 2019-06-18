@@ -5,7 +5,7 @@ Contact: [databio.org](http://databio.org); nathan@code.databio.org
 
 ## Workshop description and packages used
 
-This workshop will introduce Bioconductor packages for analyzing epigenomic data types using collections of genomic regions, or region sets. A *region set* is a collection of genomic regions genome that share some biological annotation. Region sets are represented in Bioconductor by GRanges objects, which form the basis of many downstream analysis packages. The workshop focuses on three packages produced by the Sheffield lab that use region sets to perform different kinds of epigenome analysis:
+This workshop will introduce Bioconductor packages for analyzing epigenomic data types using collections of genomic regions, or region sets. A *region set* is a collection of genomic regions that share some biological annotation. Region sets are represented in Bioconductor by GRanges objects, which form the basis of many downstream analysis packages. The workshop focuses on three packages produced by the Sheffield lab that use region sets to perform different kinds of epigenome analysis:
 
 * [LOLA](http://bioconductor.org/packages/LOLA/) -- *Locus Overlap Analysis*. Provides functions for testing overlap of sets of genomic regions with public and custom region set (genomic ranges) databases. LOLA does enrichment analysis for genomic region sets, thus facilitating interpretation of functional genomics and epigenomics data.
 
@@ -29,11 +29,11 @@ This workshop will introduce Bioconductor packages for analyzing epigenomic data
 | Activity                                                      | Time |
 |---------------------------------------------------------------|------|
 | [Introduction to LOLA](http://databio.org/slides/lola.html)   													| 10m  |
-| [LOLA vignettee](https://bioconductor.org/packages/release/bioc/vignettes/LOLA/inst/doc/gettingStarted.html)		| 20m  |
+| [LOLA vignette](https://bioconductor.org/packages/release/bioc/vignettes/LOLA/inst/doc/gettingStarted.html)		| 20m  |
 | [Introduction to MIRA](http://databio.org/slides/mira.html)   													| 10m  |
-| [MIRA vignettee](https://bioconductor.org/packages/release/bioc/vignettes/MIRA/inst/doc/GettingStarted.html)	 	| 20m  |
+| [MIRA vignette](https://bioconductor.org/packages/release/bioc/vignettes/MIRA/inst/doc/GettingStarted.html)	 	| 20m  |
 | Introduction to COCOA                                         													| 10m  |
-| [COCOA vignettee](https://bioconductor.org/packages/release/bioc/vignettes/COCOA/inst/doc/IntroToCOCOA.html) 		| 20m  |
+| [COCOA vignette](https://bioconductor.org/packages/release/bioc/vignettes/COCOA/inst/doc/IntroToCOCOA.html) 		| 20m  |
 
 
 ## Workshop goals and objectives
