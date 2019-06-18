@@ -1,6 +1,6 @@
 # Genome region pooling
 
-By: Nathan Sheffield, University of Virginia  
+By: Nathan Sheffield and John Lawson, University of Virginia  
 Contact: [databio.org](http://databio.org); nathan@code.databio.org
 
 ## Workshop description and packages used
@@ -47,4 +47,4 @@ This workshop will introduce Bioconductor packages for analyzing epigenomic data
 
 * identify the most enriched public region sets for a given query user set
 * identify aggregate DNA methylation patterns at different region sets
-* annotate principal component axes using region sets for a provided dataset
+* annotate inter-sample variation in a provided dataset using principal component analysis and region sets
