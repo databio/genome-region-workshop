@@ -32,7 +32,7 @@ This workshop will introduce Bioconductor packages for analyzing epigenomic data
 | [LOLA vignette](https://bioconductor.org/packages/release/bioc/vignettes/LOLA/inst/doc/gettingStarted.html)		| 20m  |
 | [Introduction to MIRA](http://databio.org/slides/mira.html)   													| 10m  |
 | [MIRA vignette](https://bioconductor.org/packages/release/bioc/vignettes/MIRA/inst/doc/GettingStarted.html)	 	| 20m  |
-| Introduction to COCOA                                         													| 10m  |
+| Introduction to COCOA](http://databio.org/slides/cocoa.html)                                         													| 10m  |
 | [COCOA vignette](https://bioconductor.org/packages/release/bioc/vignettes/COCOA/inst/doc/IntroToCOCOA.html) 		| 20m  |
 
 
